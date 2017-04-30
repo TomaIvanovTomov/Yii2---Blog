@@ -1,0 +1,240 @@
+.profile-picture{
+    width: 200px;
+    height: 200px;
+    padding: 0;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    border-radius: 10px;
+    -webkit-animation: pulse 2s linear;
+    -webkit-animation-iteration-count: infinite;
+}
+
+.wide {
+    width: 100%;
+    max-height: 100%;
+}
+.tall {
+    max-width: 100%;
+    height: 100%;
+}
+
+@-webkit-keyframes pulse {
+    0% {-webkit-box-shadow: 0px 0px 20px blue;}
+    50% {-webkit-box-shadow: 0px 0px 50px blue;}
+    100% {-webkit-box-shadow: 0px 0px 20px blue;}
+}
+
+.form-group{
+    padding: 15px;
+}
+
+.post-prof-img{
+    width: 100px;
+    height: 100px;
+    -webkit-border-radius: 100%;
+    -moz-border-radius: 100%;
+    border-radius: 100%;
+    padding: 0;
+}
+
+.post-cont{
+    height: 70%;
+    padding: 2%;
+    margin-left: 1%;
+    overflow: hidden;
+    text-align: justify;
+    text-overflow: ellipsis;
+    background-color: white;
+    border: 1px groove blue;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    border-radius: 10px;
+}
+
+.blog-post{
+    height: 200px;
+}
+
+.title-par{
+    color: blue;
+    border-bottom: 1px solid grey;
+}
+
+.hoverin-cont{
+    cursor: pointer;
+    background: skyblue;
+    border: none;
+}
+
+.span-class {
+    font-size: 220%;
+}
+
+.post-cont p{
+    visibility: hidden;
+    position: absolute;
+    padding-left: 25%;
+    padding-top: 10%;
+    font-size: 220%;
+    -webkit-animation: pulsating 2s linear;
+    -webkit-animation-iteration-count: infinite;
+    z-index: 1;
+}
+
+@-webkit-keyframes pulsating {
+    0% {-webkit-transform: scale(0.8, 0.8);}
+    50% {-webkit-transform: scale(1, 1);}
+    100% {-webkit-transform: scale(0.8, 0.8);}
+}
+
+.resize-btn{
+    width: 120px;
+}
+
+.resize-label-input{
+    margin-top: 0.7%;
+}
+
+.resize-label-input div{
+    padding: 0.5%;
+}
+
+.table-data-style{
+    padding: 20px;
+}
+
+.admin-menu{
+    position: relative;
+}
+
+.admin-menu ul{
+    list-style: none;
+}
+
+.menu-head{
+    background: darkgrey; /* For browsers that do not support gradients */
+    background: -webkit-linear-gradient(90deg, white, orange); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(90deg, white, orange); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(90deg, white, orange); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(90deg, white, orange); /* Standard syntax */
+    background-color: grey;
+    width: 60%;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    border-radius: 20px;
+    margin: auto;
+    margin-bottom: -5%;
+}
+
+.menu-head{
+    cursor: pointer;
+    font-family: Vijaya;
+}
+
+.menu-options{
+    display: none;
+    margin-left: 20%;
+    /*display: none;*/
+    font-family: Vijaya;
+    width: 60%;
+    padding: 1%;
+}
+
+.menu-options li{
+    background: darkgrey; /* For browsers that do not support gradients */
+    background: -webkit-linear-gradient(90deg, white, orange); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(90deg, white, orange); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(90deg, white, orange); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(90deg, white, orange); /* Standard syntax */
+    color: black;
+    cursor: pointer;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    border-radius: 20px;
+    background-color: yellow;
+    font-size: 140%;
+    margin-top: 2%;
+    padding-top: 5%;
+}
+
+#userMessages{
+    background-color: lightcyan;
+    max-height: 100%;
+    overflow: auto;
+}
+
+#userMessages table thead td{
+    font-weight: bold;
+}
+
+#userMessages table tr td{
+    width: 33.3%;
+}
+
+.users-table{
+    font-size: 130%;
+    font-family: Verdana, sans-serif;
+    font-weight: bold;
+    line-height: 160%;
+}
+
+.users-table tr{
+    border: 8px groove lightblue;
+}
+
+.users-table tr.data-row td{
+    padding: 10px;
+}
+
+.users-table tr td{
+    width: 25%;
+    background: #cccccc;
+}
+
+.users-table tr td.view-profile-datacell{
+    text-align: center;
+}
+
+.posts-info{
+    padding: 0;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    border-radius: 10px;
+    height: 150px;
+}
+
+.panel-body-class{
+    height: 100px;
+    overflow: auto;
+}
+
+.posts-info div{
+    background: lightgrey;
+    margin: 0;
+    padding:0;
+}
+
+.table-posts{
+    text-align: center;
+    font-size: 120%;
+    font-family: Verdana, sans-serif;
+}
+
+.table-posts tr td{
+    padding: 2% 0 2% 0;
+    border-bottom: 1px solid grey;
+    width: 18%;
+}
+
+.post-author-info{
+    margin-left: 15%;
+    margin-top: 5%;
+    font-size: 140%;
+    font-weight: bold;
+    color: white;
+    background-color: lightseagreen;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    border-radius: 10px;
+    border: 1px solid lightskyblue;
+}

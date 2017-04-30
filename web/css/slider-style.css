@@ -1,0 +1,139 @@
+.slides {
+    overflow: hidden;
+    height: 300px;
+    box-shadow: 0 0 20px skyblue;
+}
+
+.slides img{
+    display: inline-block;
+    width: 100%;
+    max-height: 100%;
+}
+
+.presentation {
+    padding: 2%;
+    text-align: justify;
+    font-size: 120%;
+    line-height: 170%;
+}
+
+.presentation p{
+    font-family: Verdana sans-serif;
+}
+
+.news-feeds{
+    margin: 2%;
+    overflow: auto;
+    width: 100%;
+    text-align: center;
+}
+
+.latest-posts{
+    margin: 2%;
+    width: 90%;
+    text-align: center;
+}
+
+.home-post-show{
+    margin-top: 2%;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    background: skyblue;
+    height: 105px;
+    overflow: hidden;
+}
+
+.home-post-show p:first-child{
+    border-bottom: 1px solid grey;
+    padding: 1%;
+    color: blue;
+    font-size: 130%;
+    font-family: sans-serif;
+}
+
+.search-post{
+    border-radius: 10px;
+    background-color: lightgrey;
+    border-bottom: 1px solid grey;
+    margin-bottom: 1%;
+    padding-bottom: 1%;
+    padding-top: 1%;
+}
+
+.search-form{
+    color: blue;
+    border: 1px solid grey;
+}
+
+.content-post{
+    background-color: white;
+    text-align: justify;
+    padding: 2%;
+    line-height: 180%;
+    text-indent: 10px;
+}
+
+.title-post{
+    background-color: lightcoral;
+    color: black;
+    font-weight: bold;
+    padding-top: 1%;
+    padding-bottom: 1%;
+}
+
+.foot-post{
+    background: lightcoral;
+    padding-bottom: 0.5%;
+    padding-top: 0.5%;
+    padding-right: 1%;
+}
+
+.foot-post div.text-left{
+    width: 50%;
+    float: left;
+    padding-left: 1%;
+}
+
+.tag-holder{
+    background-color: lightcoral;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    border-radius: 10px;
+    color: black;
+    font-weight: bold;
+    padding: 2%;
+    margin-left: 5%;
+    display: inline-block;
+}
+
+.list-view {
+    display: none;
+}
+
+.list-view a{
+    text-decoration: none;
+}
+
+.customize{
+    text-align: center;
+    font-size: 150%;
+    font-family: "Lucida Grande", "Lucida Sans Unicode", Verdana, Arial, Helvetica, sans-serif;
+    background-color: #cccccc;
+    table-layout: fixed;
+}
+
+.customize tr:nth-child(even){
+    background-color: whitesmoke;
+}
+
+.customize tr{
+    border-bottom: 3px groove #2e6da4;
+}
+
+.customize td{
+    width: 33.3%;
+    overflow: hidden;
+    white-space: nowrap;
+}
+

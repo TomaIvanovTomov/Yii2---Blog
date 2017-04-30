@@ -1,0 +1,28 @@
+.post-comment{
+    height: 100px;
+    overflow: auto;
+    background-color: white;
+    -ms-word-wrap: break-word;
+    word-wrap: break-word;
+    font-size: 100%;
+    font-family: Verdana, sans-serif;
+    text-align: justify;
+    padding: 1%;
+    text-indent: 20px;
+}
+
+.comment-options{
+    height: 20px;
+    background-color: #9acfea;
+    border-top: 1px solid blue;
+}
+
+.comment-options a{
+    margin-left: 10px;
+    color: grey;
+    cursor: pointer;
+}
+
+.comment-options a:hover{
+    color: blue;
+}
